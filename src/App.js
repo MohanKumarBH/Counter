@@ -51,7 +51,7 @@ function App() {
 
   const setCounter = (evt) => {
     if (
-      Number(evt.target.value) >= values.minValue ||
+      Number(evt.target.value) >= values.minValue &&
       Number(evt.target.value) <= values.maxValue
     ) {
       if (warning.warning) {
