@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import SetCounter from "./components/counterset";
+import SetCounter from "./components/SetCounterForm";
 import Counter from "./components/Counter";
 
 function App() {

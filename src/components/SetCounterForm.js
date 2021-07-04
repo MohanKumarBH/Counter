@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const SetCounter = (props) => {
-  const [minValue, setMinValue] = useState(1);
-  const [maxValue, setMaxValue] = useState(1000);
+  const [minValue, setMinValue] = useState();
+  const [maxValue, setMaxValue] = useState();
 
   const handleSetValue = () => {
     props.setValues(minValue, maxValue);
